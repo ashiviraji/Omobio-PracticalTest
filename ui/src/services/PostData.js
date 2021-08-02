@@ -1,5 +1,5 @@
 export function PostData(type, userData) {
-    let BaseURL = 'http://localhost:8080/react-php/api/index.php';
+    let BaseURL = 'http://localhost:8080/bizlogic/api/index.php';
    console.log(userData)
     let tp1="?tp=";
     let value=BaseURL+tp1+type;
